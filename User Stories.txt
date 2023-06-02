@@ -1,0 +1,11 @@
+1: Ship fires single round, the last fired torpedo was the primary one, can fire secondary
+
+2: Ship fires single round, the last fired torpedo was the secondary one, can fire primary
+
+3: Ship fires single round, the last fired torpedo was the primary one, but the secondaryTorpedoStore is empty, can fire primary
+
+4: Ship fires single round, the last fired torpedo was the secondary one, but the primaryTorpedoStore is empty, can fire secondary
+
+5: Ship fires single round, there are not torpedos remaining, firing failed
+
+6: Ship fires single round, secondary is NOT empty but fails to fire, Ship does not fire
